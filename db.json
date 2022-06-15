@@ -1,0 +1,13 @@
+{
+  "stages": [
+    {
+      "id": "1",
+      "name": "My awesome stage",
+      "nodes_count": 2,
+      "links_count": 0,
+      "x": 21,
+      "y": 89
+    }
+  ],
+  "nodes": []
+}
