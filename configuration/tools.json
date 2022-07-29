@@ -1,0 +1,56 @@
+{
+    "ChannelMergerNode": {
+        "params": [],
+        "dimensions": {"width": 150, "height": 150},
+        "inputs": 6,
+        "outputs": 1,
+        "category": "filters"
+    },
+    "GainNode": {
+        "params": [
+            {
+                "name": "gain",
+                "value": 0.1,
+                "inputs": 1,
+                "type": "NumberParameter"
+            }
+        ],
+        "dimensions": {"width": 150, "height": 150},
+        "inputs": 1,
+        "outputs": 1,
+        "category": "filters"
+    },
+    "OscillatorNode": {
+        "params": [
+            {
+                "name": "frequency",
+                "value": 440,
+                "inputs": 1,
+                "type": "NumberParameter"
+            },
+            {
+                "name": "detune",
+                "value": 0,
+                "inputs": 1,
+                "type": "NumberParameter"
+            },
+            {
+                "name": "type",
+                "value": "sine",
+                "inputs": 0,
+                "type": "ListParameter"
+            }
+        ],
+        "dimensions": {"width": 150, "height": 150},
+        "inputs": 0,
+        "outputs": 1,
+        "category": "inputs"
+    },
+    "OutputNode": {
+        "params": [],
+        "dimensions": {"width": 150, "height": 150},
+        "inputs": 1,
+        "outputs": 0,
+        "category": "outputs"
+    }
+}
